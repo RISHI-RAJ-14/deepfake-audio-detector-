@@ -20,7 +20,7 @@ Detect and explain **AI-generated (deepfake) voices** using a **CNN–LSTM model
 
 ## 💼 Project Structure
 
-bash
+```bash
 project/
 │
 ├── app.py                       🎯  Main Streamlit entry file (handles routing + sidebar)
@@ -42,7 +42,7 @@ project/
 ├── requirements.txt              📦  Dependency list for Streamlit or local environment
 ├── README.md                     📘  Project documentation (overview, setup, usage)
 └── screenshots/ (optional)       🖼️  Demo images for README or Streamlit Cloud preview
-
+```
 ---
 
 🧩 Model Overview
