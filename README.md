@@ -43,6 +43,8 @@ project/
 ├── README.md                     📘  Project documentation (overview, setup, usage)
 └── screenshots/ (optional)       🖼️  Demo images for README or Streamlit Cloud preview
 
+---
+
 🧩 Model Overview
 
 Architecture: CNN + LSTM hybrid
@@ -54,6 +56,8 @@ Output: Binary classification → Real / Fake
 Framework: TensorFlow / Keras
 
 Trained On: Real vs synthetic speech samples from KYC-style datasets
+
+---
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
@@ -73,7 +77,9 @@ pip install -r requirements.txt
 4️⃣ Run the Streamlit App
 
 streamlit run app.py
+---
 
+🔍 Forensic Feature Set
 | Feature                     | Description                                                           |
 | --------------------------- | --------------------------------------------------------------------- |
 | **Spectral Burst Fraction** | Detects sudden spectral spikes — may indicate synthesis artifacts     |
@@ -82,6 +88,7 @@ streamlit run app.py
 | **Harmonicity Ratio**       | Checks periodic consistency — low values often mean vocoder artifacts |
 | **Formant Variability**     | Low variability suggests vocoder smoothing or synthetic resonance     |
 
+---
 
 📊 Output Examples
 
@@ -97,6 +104,8 @@ streamlit run app.py
 
 (Add screenshots to /screenshots and link them here once deployed.)
 
+---
+
 ☁️ Deployment
 
 You can deploy this project seamlessly on:
@@ -107,6 +116,8 @@ You can deploy this project seamlessly on:
 
 App entry command:
 streamlit run app.py
+
+---
 
 🧩 Requirements
 streamlit
@@ -119,11 +130,15 @@ praat-parselmouth
 soundfile
 scikit-learn
 
+---
+
 🧑‍💻 Author
 
 Capstone Project (Aug 2025 – Oct 2025)
 Developed by [Capstone team VIT-AP]
 Focus: Deepfake Audio Detection for KYC Authentication Systems
+
+---
 
 🌟 Future Enhancements
 
@@ -135,6 +150,8 @@ Focus: Deepfake Audio Detection for KYC Authentication Systems
 
 🪶 Optimize lightweight model for mobile/on-edge deployment
 
+---
+💡 Emoji Legend
 | Emoji | Meaning                  |
 | :---: | :----------------------- |
 |   🎯  | Main App Entry           |
