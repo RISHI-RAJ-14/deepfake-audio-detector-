@@ -17,27 +17,8 @@ This Streamlit web app detects **AI-generated (deepfake) audio** using a hybrid 
 
 ## 🧰 Project Structure
 
-project/
-│
-├── app.py                       # 🎯 Main Streamlit entry file (handles routing + sidebar)
-│
-├── single_audio_page.py          # 🎧 Detect and explain deepfake for a single uploaded audio
-├── compare_page.py               # ⚖️ Compare real vs fake audios side by side
-├── advanced_features_page.py     # 🧠 Perform forensic and advanced acoustic analyses
-│
-├── cnn_lstm_deepfake_model.h5    # 🧩 Trained CNN-LSTM model (real vs fake classifier)
-│
-├── utils/                        # ⚙️ Core utility modules
-│   ├── preprocessing.py          # 🔊 Audio loading, trimming, feature extraction (MFCCs, etc.)
-│   ├── plotting.py               # 📊 Visualization helpers (waveform, spectrogram, MFCC plots)
-│   ├── model_utils.py            # 🧠 Model loading, inference, and caching utilities
-│   ├── explainability.py         # 🔥 Grad-CAM heatmaps and explainability visualizations
-│   ├── advanced_features.py      # 🎵 Extracts advanced spectral and prosodic features
-│   └── forensics.py              # 🔍 Forensic metrics (pitch jitter, harmonicity, fade mismatch)
-│
-├── requirements.txt              # 📦 Dependency list for Streamlit or local environment
-├── README.md                     # 📘 Project documentation (overview, setup, usage)
-└── screenshots/ (optional)       # 🖼️ Demo images for README or Streamlit Cloud preview
+<img width="953" height="650" alt="{ABED63A1-30F5-4FB6-9769-6C110600CC24}" src="https://github.com/user-attachments/assets/28c341a9-fe50-40e5-b8bd-9a490f0a11f9" />
+
 
 ---
 
