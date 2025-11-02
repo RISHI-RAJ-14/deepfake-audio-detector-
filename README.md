@@ -46,37 +46,34 @@ project/
 ---
 
 🧩 Model Overview
-
 Architecture: CNN + LSTM hybrid
-
 Input: Mel-spectrogram features (250 × 64)
-
 Output: Binary classification → Real / Fake
-
 Framework: TensorFlow / Keras
-
 Trained On: Real vs synthetic speech samples from KYC-style datasets
 
 ---
 
 ⚙️ Installation & Setup
-1️⃣ Clone the Repository
 
+1️⃣ Clone the Repository
+```bash
 git clone https://github.com/yourusername/deepfake-audio-detector.git
 cd deepfake-audio-detector
-
+```
 2️⃣ Create a Virtual Environment (recommended)
-
+```bash
 python -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
-
+```
 3️⃣ Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 4️⃣ Run the Streamlit App
-
+```bash
 streamlit run app.py
+```
 ---
 
 🔍 Forensic Feature Set
@@ -91,35 +88,27 @@ streamlit run app.py
 ---
 
 📊 Output Examples
-
 🎵 Waveform & Spectrogram
-
 🔥 Grad-CAM Heatmap (Model Attention)
-
 📈 Confidence Bar (Real vs Fake)
-
 🔍 Forensic Scores Table
-
 ⚖️ Side-by-Side Real vs Fake Comparison
-
-(Add screenshots to /screenshots and link them here once deployed.)
 
 ---
 
 ☁️ Deployment
-
 You can deploy this project seamlessly on:
-
 🌐 Streamlit Cloud
-
 🤗 Hugging Face Spaces
 
 App entry command:
+```bash
 streamlit run app.py
-
+```
 ---
 
 🧩 Requirements
+```bash
 streamlit
 librosa
 numpy
@@ -129,7 +118,7 @@ scipy
 praat-parselmouth
 soundfile
 scikit-learn
-
+```
 ---
 
 🧑‍💻 Author
