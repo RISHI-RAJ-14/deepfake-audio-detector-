@@ -14,9 +14,6 @@ __pycache__/
 *.zip
 *.tmp
 
-# Ignore model files larger than 100MB (like your .h5)
-cnn_lstm_deepfake_model.h5
-
 # OS-specific junk
 .DS_Store
 Thumbs.db
